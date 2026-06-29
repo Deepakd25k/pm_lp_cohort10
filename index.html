@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D2C Scale Workshop | Fix Your Margins</title>
+    <!-- Google Fonts: Bricolage Grotesque & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero-section">
+        <!-- Floating assets exactly like reference screenshots -->
+        <div class="floating-asset sunglasses-floating" aria-hidden="true">
+            <img src="./assets/black_sunglasses.jpg" class="sunglasses-img" alt="Sunglasses">
+        </div>
+        <div class="floating-asset can-floating" aria-hidden="true">
+            <img src="./assets/yellow_soda_can.jpg" class="can-img" alt="Soda Can">
+        </div>
+
+        <div class="hero-container">
+            <!-- Center Top Live Pill Badge -->
+            <div class="live-pill-badge">
+                <span class="live-dot-pulse">LIVE</span>
+                <span class="live-badge-txt">Workshop • 2 Days • 6 PM IST • Only ₹299</span>
+            </div>
+
+            <div class="hero-header-content">
+                <h1 class="main-headline">
+                    You're Doing ₹3–<br class="desktop-only">30L/Month.So <span class="highlight-text">Why Does Your Bank Account <br class="desktop-only">Tell a Different Story?</span>
+                </h1>
+                
+                <p class="subheadline">
+                    Working harder than ever — but bleeding margin to ads, one-time buyers, and platforms that own your customers.
+                </p>
+                <p class="system-statement">
+                    The product isn't the problem. <strong>The system is.</strong>
+                </p>
+            </div>
+
+            <!-- Profile & Details Container -->
+            <div class="hero-grid">
+                <!-- Left: Shripal Gandhi Profile Card -->
+                <div class="profile-card">
+                    <div class="avatar-wrapper">
+                        <!-- Curved background shape behind coach -->
+                        <div class="avatar-bg-shape"></div>
+                        <div class="avatar-placeholder">
+                            <img src="./assets/shripal_portrait.jpg" class="avatar-img" alt="Shripal Gandhi">
+                        </div>
+                        
+                        <!-- Floating Metrics Badges -->
+                        <div class="metric-badge badge-left-1">
+                            <span class="icon">🟢</span>
+                            <div class="badge-text">
+                                <strong>₹1,200Cr+ Built</strong>
+                                <span>Across 4 Countries</span>
+                            </div>
+                        </div>
+                        
+                        <div class="metric-badge badge-right-1">
+                            <span class="icon">🚀</span>
+                            <div class="badge-text">
+                                <strong>7,400+ Founders</strong>
+                                <span>Trained</span>
+                            </div>
+                        </div>
+                        
+                        <div class="metric-badge badge-right-2">
+                            <span class="icon">📈</span>
+                            <div class="badge-text">
+                                <strong>500+ Businesses</strong>
+                                <span>Crossed ₹1Cr ARR</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-info-box">
+                        <h2 class="profile-name">SHRIPAL GANDHI</h2>
+                        <p class="profile-title">Business Coach &amp; Serial Entrepreneur &amp; HyperScale Strategist</p>
+                    </div>
+                </div>
+
+                <!-- Right: Details Registration Card -->
+                <div class="register-card">
+                    <div class="card-header">
+                        <span class="card-title">Workshop Details</span>
+                        <div class="pricing-badge">
+                            <span class="price-discount">₹299</span>
+                            <span class="price-original">₹2,999</span>
+                        </div>
+                    </div>
+
+                    <div class="details-list">
+                        <div class="detail-row">
+                            <span class="icon-wrap">📅</span>
+                            <div class="detail-txt">
+                                <span class="label">DATE</span>
+                                <strong id="live-date">7th &amp; 8th July</strong>
+                            </div>
+                        </div>
+                        <div class="detail-row">
+                            <span class="icon-wrap">🕒</span>
+                            <div class="detail-txt">
+                                <span class="label">TIME</span>
+                                <strong>6–9 PM IST</strong>
+                            </div>
+                        </div>
+                        <div class="detail-row">
+                            <span class="icon-wrap">📹</span>
+                            <div class="detail-txt">
+                                <span class="label">LIVE</span>
+                                <strong>On Zoom</strong>
+                            </div>
+                        </div>
+                        <div class="detail-row">
+                            <span class="icon-wrap">🗣️</span>
+                            <div class="detail-txt">
+                                <span class="label">LANGUAGE</span>
+                                <strong>English + Hindi</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timer Widget -->
+                    <div class="urgency-timer-box">
+                        <span class="timer-desc">EARLY BIRD CLOSES IN</span>
+                        <div class="countdown-display" id="timer">
+                            <span id="minutes">12</span>:<span id="seconds">18</span> MINS
+                        </div>
+                    </div>
+
+                    <button class="register-btn pulse-animation">
+                        Fix My System - Register for ₹299
+                    </button>
+
+                    <p class="guarantee-note">
+                        🔒 100% Money-Back Guarantee • Attend both days.<br>
+                        If you don't find the value - full refund, no questions, no forms, no friction.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION 2: QUICK DIAGNOSTIC -->
+    <section class="diagnostic-section">
+        <!-- Floating watch decoration in margin -->
+        <div class="floating-asset watch-left" aria-hidden="true">
+            <img src="./assets/gold_watch.jpg" class="watch-left-img" alt="Gold Watch">
+        </div>
+
+        <div class="container">
+            <div class="diagnostic-inner-card">
+                <span class="section-badge">QUICK DIAGNOSTIC</span>
+                <h2 class="section-title">Which of These Is <span class="highlight-text-light">Quietly Bleeding Your Brand</span> Right Now?</h2>
+                <p class="section-subtitle">Tick every problem that sounds familiar.</p>
+
+                <div class="quiz-grid" id="quiz-options">
+                    <label class="quiz-option-label">
+                        <input type="checkbox" class="quiz-checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span class="option-text">You're spending ₹800–2,500 to acquire customers who buy once and disappear</span>
+                    </label>
+                    <label class="quiz-option-label">
+                        <input type="checkbox" class="quiz-checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span class="option-text">Marketplace commissions are eating 25–40% of every order you work hard to get</span>
+                    </label>
+                    <label class="quiz-option-label">
+                        <input type="checkbox" class="quiz-checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span class="option-text">Revenue is growing but profit isn't – and you can't explain the gap</span>
+                    </label>
+                    <label class="quiz-option-label">
+                        <input type="checkbox" class="quiz-checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span class="option-text">Your ads stop working the moment you scale the budget</span>
+                    </label>
+                    <label class="quiz-option-label">
+                        <input type="checkbox" class="quiz-checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span class="option-text">You have too many SKUs, no clear hero product, and cash locked in slow-moving inventory</span>
+                    </label>
+                    <label class="quiz-option-label">
+                        <input type="checkbox" class="quiz-checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span class="option-text">You're 80–90% dependent on paid ads with no organic or retention engine running</span>
+                    </label>
+                    <label class="quiz-option-label">
+                        <input type="checkbox" class="quiz-checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span class="option-text">Repeat purchase rate is below 20% and you don't have a system to fix it</span>
+                    </label>
+                    <label class="quiz-option-label">
+                        <input type="checkbox" class="quiz-checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span class="option-text">You know something is broken in your unit economics you just can't pinpoint what</span>
+                    </label>
+                </div>
+
+                <div class="quiz-footer">
+                    <p class="summary-statement">
+                        You've identified <strong id="gap-count">0</strong> critical system gaps. Every single one is fixable not in 6 months, in 90 days.
+                    </p>
+                    <p class="summary-subtext">That math compounds. Every month you leave these open, you pay for it. Here's what it's actually costing.</p>
+                    <button class="cta-button quiz-cta-btn">Fix These Systems ₹299 Only</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: THE REAL MATH -->
+    <section class="math-section">
+        <!-- Floating handbag on left -->
+        <div class="floating-asset handbag-floating" aria-hidden="true">
+            <img src="./assets/pink_handbag.jpg" class="handbag-img" alt="Pink Handbag">
+        </div>
+        <!-- Floating watch on right -->
+        <div class="floating-asset smartwatch-floating" aria-hidden="true">
+            <img src="./assets/black_watch.jpg" class="smartwatch-img" alt="Black Smartwatch">
+        </div>
+
+        <div class="container">
+            <div class="math-badge-wrapper">
+                <span class="section-badge badge-math">THE REAL MATH</span>
+            </div>
+            
+            <h2 class="math-headline">
+                How Many Problems Are Actually Costing You. Every. <br class="desktop-only">Single. Month.
+            </h2>
+            
+            <p class="math-subheadline">
+                Not theory. These are the monthly cost patterns seen across 500+ D2C businesses that went through these frameworks.
+            </p>
+            
+            <p class="math-italic-note">
+                Here's what makes this worse: most founders look at these numbers and assume it's just 'the cost of doing business.' It's not. It's the cost of not having a system. And every month you don't fix it, the gap between your revenue and your bank account gets wider – not smaller.
+            </p>
+
+            <!-- Cost Table Card -->
+            <div class="table-card">
+                <table class="cost-table">
+                    <thead>
+                        <tr>
+                            <th>What's Breaking</th>
+                            <th class="text-right">Monthly Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>High CAC with no retention system (losing 80% of buyers after first purchase)</td>
+                            <td class="text-right font-medium">₹80,000 – ₹4,000,000</td>
+                        </tr>
+                        <tr>
+                            <td>Marketplace dependency at 25–40% commission</td>
+                            <td class="text-right font-medium">₹50,000 – ₹3,000,000</td>
+                        </tr>
+                        <tr>
+                            <td>Poor ROAS from unstructured ad spend (no offer, no funnel, no targeting clarity)</td>
+                            <td class="text-right font-medium">₹60,000 – ₹2,50,000</td>
+                        </tr>
+                        <tr>
+                            <td>Cash locked in wrong SKUs with no velocity data</td>
+                            <td class="text-right font-medium">₹1,50,000–₹6,00,000</td>
+                        </tr>
+                        <tr>
+                            <td>No reorder engine (leaving repeat revenue on the table)</td>
+                            <td class="text-right font-medium">₹1,00,000–₹5,00,000</td>
+                        </tr>
+                        <tr class="total-row">
+                            <td class="font-bold text-berry">Total monthly opportunity cost</td>
+                            <td class="text-right font-bold text-berry cost-total-col">
+                                <span class="total-price-1">₹4,40,000–</span>
+                                <span class="total-price-2">₹20,50,000</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="math-footer-note">
+                Every month you don't fix this, you pay for it. Not once. Every month. This ₹299 workshop is the cheapest ₹10L+ decision you'll make this year.
+            </p>
+
+            <button class="cta-button math-cta-btn">Stop The Bleed Register for ₹299</button>
+        </div>
+    </section>
+
+    <!-- SECTION 4: THE 6 SYSTEMS MISSING -->
+    <section class="missing-systems-section">
+        <div class="container">
+            <div class="systems-badge-wrapper">
+                <span class="section-badge badge-stall">WHY D2C BRANDS STALL</span>
+            </div>
+            
+            <h2 class="systems-headline">
+                The 6 Systems Missing From Your Business Right Now
+            </h2>
+
+            <div class="systems-grid">
+                <!-- Card 1 -->
+                <div class="system-glass-card">
+                    <div class="card-top">
+                        <span class="number-badge">1</span>
+                        <h3 class="card-system-title">No Hero Product Clarity</h3>
+                    </div>
+                    <p class="card-system-desc">Running 8–20 SKUs with no idea which one actually makes money. Your bestseller is subsidising your worst performer.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="system-glass-card">
+                    <div class="card-top">
+                        <span class="number-badge">2</span>
+                        <h3 class="card-system-title">No Retention Engine</h3>
+                    </div>
+                    <p class="card-system-desc">Your customer bought once and disappeared. Not because they left — because no one went back for them.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="system-glass-card">
+                    <div class="card-top">
+                        <span class="number-badge">3</span>
+                        <h3 class="card-system-title">No Unit Economics Clarity</h3>
+                    </div>
+                    <p class="card-system-desc">You know your revenue. You can't say which SKU, channel, or city is profitable right now.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="system-glass-card">
+                    <div class="card-top">
+                        <span class="number-badge">4</span>
+                        <h3 class="card-system-title">Marketplace Dependency</h3>
+                    </div>
+                    <p class="card-system-desc">25–40% commission. Their algorithm. Their customer. You're scaling their business, not yours.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="system-glass-card">
+                    <div class="card-top">
+                        <span class="number-badge">5</span>
+                        <h3 class="card-system-title">No Scalable Ad System</h3>
+                    </div>
+                    <p class="card-system-desc">No hook architecture. No creative testing system. CAC goes up every month with no structural fix.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="system-glass-card">
+                    <div class="card-top">
+                        <span class="number-badge">6</span>
+                        <h3 class="card-system-title">No D2C Conversion System</h3>
+                    </div>
+                    <p class="card-system-desc">Traffic comes. Most of it leaves. No Mafia Offer. CAC at ₹800–2,500 and climbing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: TIMELINE (ROADMAP) -->
+    <section class="timeline-section">
+        <div class="container">
+            <div class="timeline-badge-wrapper">
+                <span class="section-badge badge-timeline">WHAT CHANGES AFTER THIS WORKSHOP</span>
+            </div>
+            
+            <h2 class="timeline-headline">
+                From Chaos to <span class="highlight-text">System in 90 Days</span>
+            </h2>
+
+            <p class="timeline-subheadline">
+                Right now, you're running the business on instinct. You know something is leaking – you just don't know where. You've checked the numbers. You've changed the ads. You've launched a new SKU. And the problem is still there. That's not effort failing you. That's a missing system. Here's what the next 90 days look like when you have one.
+            </p>
+
+            <!-- Scroll Interactive Timeline Track -->
+            <div class="timeline-wrapper">
+                <!-- Background static track line -->
+                <div class="timeline-line-bg"></div>
+                <!-- Animated active scroll line -->
+                <div class="timeline-line-active" id="timeline-progress"></div>
+
+                <!-- Timeline Item 1 (Left) -->
+                <div class="timeline-item left-item">
+                    <div class="timeline-dot" id="dot-1"></div>
+                    <div class="timeline-card fade-in-section">
+                        <span class="day-badge">Day 1</span>
+                        <h3 class="timeline-card-title">The Audit (First 48 Hours)</h3>
+                        <p class="timeline-card-desc">
+                            You run your D2C Margin Audit live in the session – not theory, your actual numbers. By the time you log off Day 1, you'll know exactly which SKUs are profitable, which channels make money, and where ₹2–5L in hidden monthly losses are sitting. Most founders find a leak they had no idea existed within 48 hours. That alone is worth 100x the ₹299.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 (Right) -->
+                <div class="timeline-item right-item">
+                    <div class="timeline-dot" id="dot-2"></div>
+                    <div class="timeline-card fade-in-section">
+                        <span class="day-badge">Day 8–30</span>
+                        <h3 class="timeline-card-title">Hero Product + Mafia Offer</h3>
+                        <p class="timeline-card-desc">
+                            You simplify your product line to your top performers. You build a Mafia Offer around your best SKU – an irresistible first-purchase deal that makes trying your brand feel completely risk-free. CAC starts falling because you're converting more of the traffic you already have.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 (Left) -->
+                <div class="timeline-item left-item">
+                    <div class="timeline-dot" id="dot-3"></div>
+                    <div class="timeline-card fade-in-section">
+                        <span class="day-badge">Day 31–60</span>
+                        <h3 class="timeline-card-title">Reorder Engine Live</h3>
+                        <p class="timeline-card-desc">
+                            Your reorder system is running. Customers who bought once are being brought back at exactly the right moment – without spending another rupee on paid acquisition. Repeat rate starts crossing 25–30% for the first time.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 4 (Right) -->
+                <div class="timeline-item right-item">
+                    <div class="timeline-dot" id="dot-4"></div>
+                    <div class="timeline-card fade-in-section">
+                        <span class="day-badge">Day 61–90</span>
+                        <h3 class="timeline-card-title">Predictable Scale &amp; Freedom</h3>
+                        <p class="timeline-card-desc">
+                            With your product, retention, unit economics, ads, and conversion systems fully integrated, you can confidently scale your ad budgets without margin bleeding. You move from running a business on instinct to managing a predictable, high-growth system.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: CASE STUDIES -->
+    <section class="cases-section">
+        <!-- Floating sneakers on left margin -->
+        <div class="floating-asset sneakers-floating" aria-hidden="true">
+            <img src="./assets/sneakers.jpg" class="sneakers-img" alt="Sneakers">
+        </div>
+
+        <div class="container">
+            <div class="cases-badge-wrapper">
+                <span class="section-badge badge-cases">REAL D2C FOUNDERS. REAL SYSTEMS. REAL NUMBERS.</span>
+            </div>
+            
+            <h2 class="cases-headline">
+                What Happens When the <span class="highlight-text">System Clicks</span>
+            </h2>
+
+            <p class="cases-subheadline">
+                These weren't lucky brands. They had the same CAC, retention, and margin problems you have – across categories, cities, and price points.
+            </p>
+
+            <div class="cases-grid">
+                <!-- Case 1 -->
+                <div class="case-card">
+                    <span class="case-number-badge">CASE STUDY 1</span>
+                    <h3 class="case-title">Millet Snacks Brand, Delhi</h3>
+                    
+                    <div class="before-box">
+                        <strong>Before:</strong> 14 SKUs. Expiry eating 18% of inventory. No idea which products were actually profitable. Revenue felt fine. The bank account told a different story.
+                    </div>
+
+                    <div class="after-wrapper">
+                        <span class="after-label">After Hero SKU Framework + 30–60–90 Reorder Engine:</span>
+                        <ul class="metrics-list">
+                            <li><span class="metric-icon green-arrow">📈</span> <strong>Revenue:</strong> ₹4.2L ➔ ₹38L <span class="duration">(9 months)</span></li>
+                            <li><span class="metric-icon red-arrow">📉</span> <strong>Expiry:</strong> 18% ➔ 3%</li>
+                            <li><span class="metric-icon blue-bar">📊</span> <strong>Gross Margin:</strong> 22% ➔ 42%</li>
+                        </ul>
+                    </div>
+
+                    <blockquote class="case-quote">
+                        "We were launching new flavours thinking that's growth. Shripal showed us we were just creating more inventory risk. When we focused on our top 3 SKUs and built the reorder system, everything changed. We 10x'd revenue by doing less, not more."
+                    </blockquote>
+                    <span class="founder-signature">Founder, Delhi</span>
+                </div>
+
+                <!-- Case 2 -->
+                <div class="case-card">
+                    <span class="case-number-badge">CASE STUDY 2</span>
+                    <h3 class="case-title">Skincare Brand, Bangalore</h3>
+                    
+                    <div class="before-box">
+                        <strong>Before:</strong> ₹1,400 CAC. 9% repeat rate. Fully dependent on Meta ads. The moment they paused spends, revenue collapsed.
+                    </div>
+
+                    <div class="after-wrapper">
+                        <span class="after-label">After Retention Framework + Mafia Offer Build:</span>
+                        <ul class="metrics-list">
+                            <li><span class="metric-icon green-arrow">📈</span> <strong>Revenue:</strong> ₹5.5L ➔ ₹34L <span class="duration">(8 months)</span></li>
+                            <li><span class="metric-icon red-arrow">📉</span> <strong>CAC:</strong> ₹1,400 ➔ ₹620</li>
+                            <li><span class="metric-icon blue-bar">📊</span> <strong>Repeat Rate:</strong> 9% ➔ 38%</li>
+                        </ul>
+                    </div>
+
+                    <blockquote class="case-quote">
+                        "I thought I had a marketing problem. Shripal showed me I had a retention problem. The reorder engine changed the entire economics of the business – CAC dropped because LTV went up, not because we got better at ads."
+                    </blockquote>
+                    <span class="founder-signature">Founder, Bangalore</span>
+                </div>
+
+                <!-- Case 3 (Full width / Centered card) -->
+                <div class="case-card full-width-card">
+                    <span class="case-number-badge">CASE STUDY 3</span>
+                    <h3 class="case-title">Accessories Brand (Bags + Jewellery), Pune</h3>
+                    
+                    <div class="before-box">
+                        <strong>Before:</strong> Spending ₹1,850 to acquire a customer who bought once and disappeared. Over 40 SKUs creating massive warehouse blockages and cash flow stagnation.
+                    </div>
+
+                    <div class="after-wrapper">
+                        <span class="after-label">After Margin &amp; SKU Optimization + Reorder Engine:</span>
+                        <ul class="metrics-list">
+                            <li><span class="metric-icon green-arrow">📈</span> <strong>Revenue:</strong> ₹12L ➔ ₹48L <span class="duration">(6 months)</span></li>
+                            <li><span class="metric-icon red-arrow">📉</span> <strong>CAC:</strong> ₹1,850 ➔ ₹920</li>
+                            <li><span class="metric-icon blue-bar">📊</span> <strong>Gross Margin:</strong> 28% ➔ 54%</li>
+                        </ul>
+                    </div>
+
+                    <blockquote class="case-quote">
+                        "Our cash was completely locked up in slow-moving inventory. We cut down low-margin SKUs, automated the reorder flows, and watched our margins double. Now we scale with real profits."
+                    </blockquote>
+                    <span class="founder-signature">Founder, Pune</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: DELIVERABLES (FRAMEWORKS) -->
+    <section class="deliverables-section">
+        <!-- Floating gold can on left margin -->
+        <div class="floating-asset gold-can-floating" aria-hidden="true">
+            <img src="./assets/gold_can.jpg" class="gold-can-img" alt="Gold Can">
+        </div>
+
+        <div class="container">
+            <div class="deliverables-badge-wrapper">
+                <span class="section-badge badge-deliverables">YOUR DELIVERABLES</span>
+            </div>
+            
+            <h2 class="deliverables-headline">
+                <span class="highlight-text">6 Frameworks</span> Built Live During the Workshop
+            </h2>
+
+            <p class="deliverables-subheadline">
+                Not slides. Not theory. Not a recording you'll never watch. Every framework is completed with your numbers – ready to implement the moment you log off.
+            </p>
+
+            <div class="deliverables-grid">
+                <!-- Card 1 -->
+                <div class="deliverable-card">
+                    <div class="deliverable-left">
+                        <span class="deliverable-tag">01 • D2C Margin Audit</span>
+                        <p class="deliverable-desc">Real profit per SKU, per channel, per order. Most founders find ₹2–4L in monthly leaks on Day 1.</p>
+                        <div class="highlight-banner">
+                            <span class="check-icon">🟢</span>
+                            <span class="highlight-banner-txt">Which means you finally know where the money goes – and which decision to make first.</span>
+                        </div>
+                        <div class="deliverable-val">💰 ₹4,999</div>
+                    </div>
+                    <div class="deliverable-right">
+                        <img src="./assets/framework_binder.jpg" class="binder-mockup-img" alt="Margin Audit Mockup">
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="deliverable-card">
+                    <div class="deliverable-left">
+                        <span class="deliverable-tag">02 • Hero SKU Analysis Framework</span>
+                        <p class="deliverable-desc">Identify which products to scale, pause, or cut – based on margin, velocity, and repeat potential.</p>
+                        <div class="highlight-banner">
+                            <span class="check-icon">🟢</span>
+                            <span class="highlight-banner-txt">Which means your cash stops being locked in dead inventory and starts compounding in your best SKUs.</span>
+                        </div>
+                        <div class="deliverable-val">💰 ₹2,999</div>
+                    </div>
+                    <div class="deliverable-right">
+                        <img src="./assets/framework_binder.jpg" class="binder-mockup-img" alt="SKU Analysis Mockup">
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="deliverable-card">
+                    <div class="deliverable-left">
+                        <span class="deliverable-tag">03 • Reorder Engine</span>
+                        <p class="deliverable-desc">Automated customer journey that brings buyers back at exactly the right moment – without running another paid ad.</p>
+                        <div class="highlight-banner">
+                            <span class="check-icon">🟢</span>
+                            <span class="highlight-banner-txt">Which means your revenue no longer dies the moment you pause ad spend.</span>
+                        </div>
+                        <div class="deliverable-val">💰 ₹5,999</div>
+                    </div>
+                    <div class="deliverable-right">
+                        <img src="./assets/framework_binder.jpg" class="binder-mockup-img" alt="Reorder Engine Mockup">
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="deliverable-card">
+                    <div class="deliverable-left">
+                        <span class="deliverable-tag">04 • Mafia Offer Builder</span>
+                        <p class="deliverable-desc">Build an irresistible first-purchase offer for your best SKU. Lowers CAC, raises AOV, makes trial feel zero-risk.</p>
+                        <div class="highlight-banner">
+                            <span class="check-icon">🟢</span>
+                            <span class="highlight-banner-txt">Which means your offer does the selling, not your ad budget.</span>
+                        </div>
+                        <div class="deliverable-val">💰 ₹3,999</div>
+                    </div>
+                    <div class="deliverable-right">
+                        <img src="./assets/framework_binder.jpg" class="binder-mockup-img" alt="Mafia Offer Mockup">
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="deliverable-card">
+                    <div class="deliverable-left">
+                        <span class="deliverable-tag">05 • Multi-Channel Profit Calculator</span>
+                        <p class="deliverable-desc">Know precisely when Amazon, Meesho, Zepto, your own website, or retail makes or loses you money.</p>
+                        <div class="highlight-banner">
+                            <span class="check-icon">🟢</span>
+                            <span class="highlight-banner-txt">Which means you stop funding platforms that bleed you dry and focus on what scales.</span>
+                        </div>
+                        <div class="deliverable-val">💰 ₹3,999</div>
+                    </div>
+                    <div class="deliverable-right">
+                        <img src="./assets/framework_binder.jpg" class="binder-mockup-img" alt="Profit Calculator Mockup">
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="deliverable-card">
+                    <div class="deliverable-left">
+                        <span class="deliverable-tag">06 • 12-Month HyperScale Roadmap</span>
+                        <p class="deliverable-desc">Your personalised path with clear monthly milestones. Built with your numbers, your category, your constraints.</p>
+                        <div class="highlight-banner">
+                            <span class="check-icon">🟢</span>
+                            <span class="highlight-banner-txt">Which means you leave the workshop with a clear plan, not just a notebook full of ideas.</span>
+                        </div>
+                        <div class="deliverable-val">💰 ₹5,999</div>
+                    </div>
+                    <div class="deliverable-right">
+                        <img src="./assets/framework_binder.jpg" class="binder-mockup-img" alt="Roadmap Mockup">
+                    </div>
+                </div>
+            </div>
+            <!-- Deliverables Summary & CTA -->
+            <div class="deliverables-summary-box">
+                <div class="floating-asset burger-box-floating" aria-hidden="true">
+                    <img src="./assets/burger_box.jpg" class="burger-box-img" alt="Burger Box">
+                </div>
+
+                <div class="summary-price-line">Total Value: <span class="strike-grey">₹26,994</span></div>
+                <div class="summary-final-price">Your Price: <span class="green-text-heavy">₹299</span></div>
+                <p class="summary-text-desc">
+                    That's a <strong>98.9% discount</strong>. Not because these systems aren't worth it – because Shripal's model is to get serious D2C founders in the room and let the results do the selling.
+                </p>
+                <button class="cta-button summary-checkout-btn">Get All 6 Frameworks ₹299 Only</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 8: YOUR MENTOR -->
+    <section class="mentor-section">
+        <div class="container">
+            <div class="mentor-badge-wrapper">
+                <span class="section-badge badge-mentor">YOUR MENTOR</span>
+            </div>
+            
+            <h2 class="mentor-headline">Shripal Gandhi</h2>
+
+            <div class="mentor-grid">
+                <!-- Left: Mentor Portrait -->
+                <div class="mentor-left-col">
+                    <div class="mentor-avatar-wrapper">
+                        <!-- Curved background shape behind mentor portrait -->
+                        <div class="mentor-avatar-bg-shape"></div>
+                        <div class="mentor-avatar-frame">
+                            <img src="./assets/shripal_suit.jpg" class="mentor-avatar-img" alt="Shripal Gandhi in suit">
+                        </div>
+                    </div>
+                    <div class="mentor-info-tag">
+                        <h3 class="mentor-tag-name">SHRIPAL GANDHI</h3>
+                        <p class="mentor-tag-title">Business Coach &amp; Serial Entrepreneur &amp; HyperScale Strategist</p>
+                    </div>
+                </div>
+
+                <!-- Right: Mentor Story / Credentials -->
+                <div class="mentor-right-col">
+                    <p class="mentor-hook-bold">
+                        He didn't study D2C. He built it – from <span class="gold-gradient-txt">₹30L to ₹300Cr</span> in 3 years.
+                    </p>
+                    
+                    <p class="mentor-paragraph">
+                        20+ years building profitable consumer brands across food, beauty, fashion, and health. ₹1,200+ Crore in businesses built across India, USA, China, and Singapore. 7,400+ founders trained. 500+ businesses crossed ₹1Cr ARR under his frameworks.
+                    </p>
+                    
+                    <p class="mentor-paragraph">
+                        His specialisation isn't one category – it's the operating system underneath every profitable D2C brand. The frameworks in this workshop have been tested across niches, across price points, and across markets. They work because they're built on unit economics, not trends.
+                    </p>
+
+                    <h4 class="credentials-title">Credentials:</h4>
+                    <ul class="credentials-list">
+                        <li><span class="check-bullet">🟢</span> Built ₹1,200+ Cr across 4 countries</li>
+                        <li><span class="check-bullet">🟢</span> 15+ brands scaled to ₹100Cr+ year-on-year</li>
+                        <li><span class="check-bullet">🟢</span> Raised ₹100+ Crore in startup capital</li>
+                        <li><span class="check-bullet">🟢</span> Selected to present to Masayoshi Son (SoftBank)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 9: 2-DAY BLUEPRINT -->
+    <section class="blueprint-section">
+        <!-- Floating fashion assets on left/right margins -->
+        <div class="floating-asset stiletto-floating" aria-hidden="true">
+            <img src="./assets/stiletto_shoe.jpg" class="stiletto-img" alt="Luxury Stiletto">
+        </div>
+        <div class="floating-asset strap-floating" aria-hidden="true">
+            <img src="./assets/leather_strap.jpg" class="strap-img" alt="Leather Strap">
+        </div>
+
+        <div class="container">
+            <div class="blueprint-badge-wrapper">
+                <span class="section-badge badge-blueprint">THE 2-DAY BLUEPRINT</span>
+            </div>
+            
+            <h2 class="blueprint-headline">
+                What Happens <span class="highlight-text">Inside the Workshop</span>
+            </h2>
+
+            <p class="blueprint-subheadline">
+                Every session builds toward one outcome – a fully operational system for your brand by the time you log off on Day 2.
+            </p>
+
+            <div class="blueprint-grid">
+                <!-- Day 1 Card -->
+                <div class="blueprint-card">
+                    <span class="day-badge-pill">DAY 1</span>
+                    <h3 class="blueprint-day-title">Foundation &amp; Unit Economics</h3>
+                    <ul class="blueprint-list">
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">Why D2C is the only long-term play – and how to build toward it without blowing margins today</span>
+                        </li>
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">The 6 silent killers of D2C margin – diagnose yours live in the session</span>
+                        </li>
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">Profit First vs Scale First – which to choose based on your current stage (most founders are doing this backwards)</span>
+                        </li>
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">3 pricing strategies that protect margin under marketplace and competitor pressure</span>
+                        </li>
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">Hero SKU identification – cut your line and watch revenue go up</span>
+                        </li>
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">How to move D2C conversion from 0.5–0.8% to 4–5% – with your specific offer and category</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Day 2 Card -->
+                <div class="blueprint-card">
+                    <span class="day-badge-pill">DAY 2</span>
+                    <h3 class="blueprint-day-title">Growth, Retention &amp; Scale</h3>
+                    <ul class="blueprint-list">
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">Build like a startup, talk like a brand – the D2C hybrid model</span>
+                        </li>
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">Organic vs Paid – when to use what, how to combine both profitably</span>
+                        </li>
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">The Mafia Offer – build an irresistible first-purchase deal for your best SKU live in the session</span>
+                        </li>
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">The 30–60–90 Day Reorder Engine – built with your brand's numbers, not a template</span>
+                        </li>
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">RFM segmentation – who to retarget, when, and how</span>
+                        </li>
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">The Ad Assembly Line – 150+ ad variations from one session of structured thinking</span>
+                        </li>
+                        <li>
+                            <span class="star-icon">✿</span>
+                            <span class="bullet-text">Your personalised 12-Month HyperScale Roadmap</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Note -->
+            <p class="blueprint-bottom-note">
+                <strong>Note:</strong> If you can only attend one day, attend Day 1. The Margin Audit alone will change how you see your business. But attend both – the Reorder Engine on Day 2 is where the compounding starts.
+            </p>
+        </div>
+            <!-- Register CTA button below note -->
+            <div class="blueprint-cta-box">
+                <a href="#register" class="cta-button blueprint-register-btn">Stop The Leak, Register for ₹299</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 10: IS THIS FOR YOU? -->
+    <section class="qualification-section">
+        <!-- Floating items (watch top right, wallet bottom left) -->
+        <div class="floating-asset qualification-watch-floating" aria-hidden="true">
+            <img src="./assets/gold_watch.jpg" class="qualification-watch-img" alt="Luxury Watch">
+        </div>
+        <div class="floating-asset qualification-wallet-floating" aria-hidden="true">
+            <img src="./assets/leather_wallet.jpg" class="qualification-wallet-img" alt="Leather Wallet">
+        </div>
+
+        <div class="container">
+            <div class="qualification-badge-wrapper">
+                <span class="section-badge badge-qualification">IS THIS FOR YOU?</span>
+            </div>
+            
+            <h2 class="qualification-headline">
+                <span class="highlight-text">Built For D2C Founders</span> Who Are Done Guessing
+            </h2>
+
+            <div class="qualification-grid">
+                <!-- FOR YOU CARD -->
+                <div class="qualification-card for-you-card">
+                    <div class="card-header-badge green-badge">THIS WORKSHOP IS FOR YOU IF:</div>
+                    <ul class="qualification-list">
+                        <li>
+                            <span class="qual-icon green-check">🟢</span>
+                            <span class="qual-txt">You sell physical products direct to consumer – packaged goods, beauty, fashion, wellness, supplements, home, or any category with repeat purchase potential</span>
+                        </li>
+                        <li>
+                            <span class="qual-icon green-check">🟢</span>
+                            <span class="qual-txt">You're doing ₹3L–₹50L/month and want to scale without burning more cash on ads</span>
+                        </li>
+                        <li>
+                            <span class="qual-icon green-check">🟢</span>
+                            <span class="qual-txt">You're struggling with high CAC, low repeat rate, shrinking margin, or no clarity on unit economics</span>
+                        </li>
+                        <li>
+                            <span class="qual-icon green-check">🟢</span>
+                            <span class="qual-txt">You're marketplace-dependent and want to build a profitable owned channel</span>
+                        </li>
+                        <li>
+                            <span class="qual-icon green-check">🟢</span>
+                            <span class="qual-txt">You're serious about implementing – not just learning</span>
+                        </li>
+                        <li>
+                            <span class="qual-icon green-check">🟢</span>
+                            <span class="qual-txt">You're committed to tracking numbers and following a system for 90 days</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- NOT FOR YOU CARD -->
+                <div class="qualification-card not-for-you-card">
+                    <div class="card-header-badge red-badge">THIS WORKSHOP IS NOT FOR YOU IF:</div>
+                    <ul class="qualification-list">
+                        <li>
+                            <span class="qual-icon red-cross">🔴</span>
+                            <span class="qual-txt">You're under ₹1L/month (focus on product-market fit first – come back when you're ready)</span>
+                        </li>
+                        <li>
+                            <span class="qual-icon red-cross">🔴</span>
+                            <span class="qual-txt">You sell services, digital products, or anything without physical inventory</span>
+                        </li>
+                        <li>
+                            <span class="qual-icon red-cross">🔴</span>
+                            <span class="qual-txt">You want quick hacks instead of operating systems that hold up at scale</span>
+                        </li>
+                        <li>
+                            <span class="qual-icon red-cross">🔴</span>
+                            <span class="qual-txt">You're not willing to cut SKUs, track margins, or build a retention system</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Warning/Disclaimer Box -->
+            <div class="qualification-footer-quote">
+                <p class="quote-italic-text">
+                    "This workshop is not for everyone and that's intentional. Shripal doesn't want a room full of people who aren't ready to act. He wants founders who are done watching margin leak and ready to fix it with a system. If that's not you right now, come back when it is."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 11: FINAL CHECKOUT CARD -->
+    <section class="checkout-section" id="register">
+        <!-- Floating items (wallet top left, perfume bottle middle right) -->
+        <div class="floating-asset checkout-wallet-floating" aria-hidden="true">
+            <img src="./assets/leather_wallet.jpg" class="checkout-wallet-img" alt="Leather Wallet">
+        </div>
+        <div class="floating-asset checkout-perfume-floating" aria-hidden="true">
+            <img src="./assets/perfume_bottle.jpg" class="checkout-perfume-img" alt="Luxury Perfume">
+        </div>
+
+        <div class="container">
+            <div class="checkout-badge-wrapper">
+                <span class="section-badge badge-checkout">LOCK YOUR SEAT</span>
+            </div>
+            
+            <h2 class="checkout-headline">
+                One Investment. <span class="highlight-text">Every System You Need.</span>
+            </h2>
+
+            <!-- The Main Checkout Card -->
+            <div class="final-checkout-card">
+                <div class="checkout-card-header">
+                    HYPERSCALE D2C WORKSHOP
+                </div>
+                
+                <div class="checkout-card-body">
+                    <div class="checkout-price-info">
+                        <span class="strike-price">₹2,999</span> ➔ <span class="final-price-bold">₹299 Early Bird</span>
+                        <span class="price-deadline-note">Price Increases in <strong class="red-text" id="checkout-timer-lbl">10:33</strong> mins</span>
+                    </div>
+
+                    <div class="divider-line"></div>
+
+                    <h3 class="checkout-what-get">What you get:</h3>
+                    <ul class="checkout-features-list">
+                        <li>
+                            <span class="check-bullet-green">🟢</span>
+                            <span class="feature-txt"><strong>2 live sessions</strong> · 3 hours each</span>
+                        </li>
+                        <li>
+                            <span class="check-bullet-green">🟢</span>
+                            <span class="feature-txt">D2C Margin Audit – <span class="muted-value">value: ₹4,999</span></span>
+                        </li>
+                        <li>
+                            <span class="check-bullet-green">🟢</span>
+                            <span class="feature-txt">Hero SKU Analysis Framework – <span class="muted-value">value: ₹2,999</span></span>
+                        </li>
+                        <li>
+                            <span class="check-bullet-green">🟢</span>
+                            <span class="feature-txt">Reorder Engine – <span class="muted-value">value: ₹5,999</span></span>
+                        </li>
+                        <li>
+                            <span class="check-bullet-green">🟢</span>
+                            <span class="feature-txt">Mafia Offer Builder – <span class="muted-value">value: ₹3,999</span></span>
+                        </li>
+                        <li>
+                            <span class="check-bullet-green">🟢</span>
+                            <span class="feature-txt">Customer Persona + Audience Stack – <span class="muted-value">value: ₹3,999</span></span>
+                        </li>
+                        <li>
+                            <span class="check-bullet-green">🟢</span>
+                            <span class="feature-txt">12-Month HyperScale Roadmap – <span class="muted-value">value: ₹4,999</span></span>
+                        </li>
+                        <li>
+                            <span class="check-bullet-green">🟢</span>
+                            <span class="feature-txt">Live Q&amp;A with Shripal Gandhi</span>
+                        </li>
+                    </ul>
+
+                    <div class="divider-line"></div>
+
+                    <div class="checkout-summary-price">
+                        Total Value: <strong>₹26,994+</strong> | Your Investment: <strong>₹299</strong>
+                    </div>
+
+                    <button class="cta-button checkout-reserve-btn">Reserve My Seat Only ₹299</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 12: FAQ'S -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="faq-badge-wrapper">
+                <span class="section-badge badge-faq">FAQ'S</span>
+            </div>
+            
+            <h2 class="faq-headline">Questions Answered</h2>
+
+            <div class="faq-accordion">
+                <!-- Item 1 -->
+                <div class="faq-item active">
+                    <button class="faq-header" aria-expanded="true">
+                        <span class="faq-question">I'm doing ₹3–5L/month. Is this too advanced?</span>
+                        <span class="faq-icon-toggle"></span>
+                    </button>
+                    <div class="faq-body">
+                        <p class="faq-answer">
+                            This is exactly the right entry point. At ₹3–5L, you haven't yet made the expensive mistakes - wrong SKU line, over-dependence on one platform, CAC that spirals with no system. Founders who come at ₹30L spend Day 1 undoing decisions they made at ₹5L. You're coming at the right time.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="faq-item">
+                    <button class="faq-header" aria-expanded="false">
+                        <span class="faq-question">What does my business actually look like 90 days after this?</span>
+                        <span class="faq-icon-toggle"></span>
+                    </button>
+                    <div class="faq-body">
+                        <p class="faq-answer">
+                            You will have a dashboard showing exact margins per SKU, automated email/WhatsApp reorder flows running in the background, a cut down product catalog focusing only on high-velocity items, and a documented scaling roadmap based on numbers rather than guesswork.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="faq-item">
+                    <button class="faq-header" aria-expanded="false">
+                        <span class="faq-question">I sell on Amazon/Flipkart/Meesho. Does this apply?</span>
+                        <span class="faq-icon-toggle"></span>
+                    </button>
+                    <div class="faq-body">
+                        <p class="faq-answer">
+                            Yes. The multi-channel profit calculator and SKU analysis framework are built specifically to handle platform fees, return logistics, and advertising costs on marketplaces, helping you protect your margins.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="faq-item">
+                    <button class="faq-header" aria-expanded="false">
+                        <span class="faq-question">I already do ₹15–20L/month. Will I learn anything new?</span>
+                        <span class="faq-icon-toggle"></span>
+                    </button>
+                    <div class="faq-body">
+                        <p class="faq-answer">
+                            Absolutely. At your stage, margin leakage is often silent and massive. You will learn the Mafia Offer framework to lower CAC and the 30-60-90 Day Reorder Engine to compound repeat purchase rates without ad spend.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="faq-item">
+                    <button class="faq-header" aria-expanded="false">
+                        <span class="faq-question">I've attended workshops before and nothing changed.</span>
+                        <span class="faq-icon-toggle"></span>
+                    </button>
+                    <div class="faq-body">
+                        <p class="faq-answer">
+                            Most workshops focus on motivational slides. We build tools live with your numbers. You will input your real product margins, SKU counts, and ad spend to generate direct outputs for your D2C brand.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="faq-item">
+                    <button class="faq-header" aria-expanded="false">
+                        <span class="faq-question">I can't attend live. Will there be recordings?</span>
+                        <span class="faq-icon-toggle"></span>
+                    </button>
+                    <div class="faq-body">
+                        <p class="faq-answer">
+                            Yes, you will get lifetime access to all session recordings, templates, calculators, and roadmap builders so you can implement them at your own pace.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="faq-item">
+                    <button class="faq-header" aria-expanded="false">
+                        <span class="faq-question">Why is this only ₹299?</span>
+                        <span class="faq-icon-toggle"></span>
+                    </button>
+                    <div class="faq-body">
+                        <p class="faq-answer">
+                            This is a no-brainer entry price. Shripal's goal is to work with serious founders. By delivering extreme value for ₹299, we let the quality of our systems speak for themselves, so you consider our high-level implementation programs later.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 13: COMPETITORS FINAL CTA -->
+    <section class="competitors-section">
+        <!-- Floating orange sneaker on left margin -->
+        <div class="floating-asset orange-sneaker-floating" aria-hidden="true">
+            <img src="./assets/orange_sneaker.jpg" class="orange-sneaker-img" alt="Orange Sneaker">
+        </div>
+
+        <div class="container">
+            <h2 class="competitors-headline">
+                Your Competitors Are <span class="highlight-text">Getting Better Systems Every Day.</span>
+            </h2>
+
+            <p class="competitors-paragraph-desc">
+                Thousands of new D2C brands launch in India every month. Quick commerce is rewriting the rules. Performance marketing costs have risen significantly year-on-year. The brands that win won't have the best product. They'll have the best system.
+            </p>
+
+            <p class="competitors-paragraph-desc">
+                The question isn't whether you should learn these frameworks. The question is how many more months of ₹4–20L in fixable losses you're comfortable with before you do.
+            </p>
+
+            <!-- Seats filling alert -->
+            <div class="seats-alert-line">
+                ⚡ <span class="red-text-alert">Seats are filling.</span> Once this cohort closes, the next date is not confirmed.
+            </div>
+
+            <!-- Central checkout button -->
+            <div class="competitors-btn-box">
+                <a href="#register" class="cta-button competitors-checkout-btn">Secure My Seat ₹299 Only</a>
+            </div>
+
+            <!-- Trust Indicators checklist -->
+            <ul class="trust-indicators-checklist">
+                <li><span class="indicator-check">🟢</span> 7,400+ Founders Trained</li>
+                <li><span class="indicator-check">🟢</span> 500+ Businesses Crossed ₹1Cr ARR</li>
+                <li><span class="indicator-check">🟢</span> ₹1,200Cr+ Built Across 4 Countries</li>
+            </ul>
+
+            <!-- Bottom Disclaimer Box -->
+            <div class="competitors-footer-quote">
+                <p class="quote-italic-text">
+                    "You already know something in your business is broken. You've known it for a while. This workshop doesn't give you more things to think about – it gives you a filled-in system with your numbers, ready to run the moment you log off Day 2."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- STICKY FOOTER CTA (Visible on both Desktop and Mobile) -->
+    <div class="sticky-footer-cta">
+        <div class="sticky-container">
+            <div class="sticky-left-info">
+                <div class="price-wrap">
+                    <span class="sticky-price-discount">₹299</span>
+                    <span class="sticky-price-original">₹2,999</span>
+                </div>
+                <span class="sticky-timer-note">Offer Ends In <strong class="red-text" id="sticky-timer-lbl">12:18</strong></span>
+            </div>
+            <a href="#register" class="sticky-register-btn">Register Now!</a>
+        </div>
+    </div>
+
+    <!-- Main JavaScript -->
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
