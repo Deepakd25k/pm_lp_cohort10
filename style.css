@@ -21,18 +21,7 @@
 }
 
 html {
-    scroll-snap-type: y proximity;
     scroll-behavior: smooth;
-}
-
-/* Scroll Snapping Alignments */
-.hero-section,
-.diagnostic-section,
-.math-section,
-.missing-systems-section,
-.timeline-section {
-    scroll-snap-align: start;
-    scroll-margin-top: 10px;
 }
 
 * {
@@ -49,7 +38,6 @@ body {
     font-size: 24px; /* Increased globally from 16px to 24px */
     line-height: 1.6;
     overflow-x: hidden;
-    scroll-snap-type: y proximity;
     padding-bottom: 90px; /* space for desktop/mobile sticky footer */
     /* Soft grid pattern with elegant opacity */
     background-image: 
